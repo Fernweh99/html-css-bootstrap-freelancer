@@ -4,7 +4,7 @@ header {
   background-color: #2C3E4F;
 }
 
-h1,p {
+h1,h2,p {
   min-height: 40px;
 }
 
@@ -18,10 +18,33 @@ h1,p {
   min-height: 50px;
 }
 
+.bg-col-house {
+  background-color: #BA4B63;
+}
+
+.bg-col-cake {
+  background-color: #1CA4B5;
+}
+
+.bg-col-circle {
+  background-color: black;
+}
+
+.bg-col-game {
+  background-color: #1B83C1;
+}
+
+.bg-col-safe {
+  background-color: #0F38B5;
+}
+
+.bg-col-submarine {
+  background-color: #CCB2A3;
+}
+
 /* Header */
 .bi-costmz {
   font-size: 30px;
-  
 }
 
 /* Main */
@@ -32,7 +55,7 @@ h1,p {
   min-height: 450px;
 }
 
-#intro-profile figure{
+#intro-profile figure.img{
   min-height: 100px;
   max-width: 200px;
   background-color: royalblue;
@@ -42,4 +65,16 @@ h1,p {
 #intro-profile .hr-star {
   min-height: 40px;
   max-width: 200px;
+}
+
+/* Section portfolio */
+.card figure.img {
+  min-height: 50px;
+  width: 50px;
+  background-color: royalblue;
+  border-radius: 50%;
+}
+
+#portfolio .h-costmz {
+  height: 250px;
 }
