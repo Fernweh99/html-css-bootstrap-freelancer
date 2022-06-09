@@ -18,7 +18,7 @@ h1,h2,p {
 }
 
 .row > [class^="col"] {
-  background-color: blue;
+  border: 2px dashed red;
   min-height: 50px;
 }
 
@@ -73,8 +73,8 @@ h1,h2,p {
 
 /* Section portfolio */
 .card figure.img {
-  min-height: 50px;
-  width: 50px;
+  min-height: 200px;
+  width: 200px;
   background-color: royalblue;
   border-radius: 50%;
 }
