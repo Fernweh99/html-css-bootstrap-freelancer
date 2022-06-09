@@ -119,3 +119,33 @@ footer.bg-col-primary {
 footer .bg-col-secondary {
   background-color: #2C3E4F;
 }
+
+/***********************************************************/
+/************************RESPONSIVE*************************/
+/***********************************************************/
+
+@media screen and (min-width: 768px) {
+  #about .container {
+    max-width: 620px;
+  }
+
+  #contact-me .container {
+    max-width: 590px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #about .container {
+    max-width: 840px;
+  }
+
+  #contact-me .container {
+    max-width: 800px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body .container {
+    max-width: 1140px;
+  }
+}
