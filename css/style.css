@@ -1,0 +1,45 @@
+/* Generics */
+header {
+  height: 100px;
+  background-color: #2C3E4F;
+}
+
+h1,p {
+  min-height: 40px;
+}
+
+/* Utils */
+.border-lay {
+  border: 2px dashed red;
+}
+
+.row > .col {
+  background-color: blue;
+  min-height: 50px;
+}
+
+/* Header */
+.bi-costmz {
+  font-size: 30px;
+  
+}
+
+/* Main */
+
+/* Section Intro profile */
+#intro-profile {
+  background-color: #19BC9C;
+  min-height: 450px;
+}
+
+#intro-profile figure{
+  min-height: 100px;
+  max-width: 200px;
+  background-color: royalblue;
+  margin: 0 auto;
+}
+
+#intro-profile .hr-star {
+  min-height: 40px;
+  max-width: 200px;
+}
