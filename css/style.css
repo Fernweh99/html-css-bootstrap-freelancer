@@ -87,9 +87,22 @@ h1,h2,p {
 #about {
   background-color: #19BC9C;
   color: white;
+  padding: 40px 70px;
 }
 
-.btn.normal {
-  width: auto;
+.btn.bc-white {
   border: 1px solid white;
+}
+
+/* Section contact me */
+#contact-me {
+  padding: 40px 80px;
+}
+
+.message,.name,.e-mail,.phone {
+  border-bottom: 1px solid gray;
+}
+
+.message {
+  height: 160px;
 }
