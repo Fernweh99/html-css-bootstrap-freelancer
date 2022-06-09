@@ -4,6 +4,10 @@ header {
   background-color: #2C3E4F;
 }
 
+section {
+  padding: 40px 0;
+}
+
 h1,h2,p {
   min-height: 40px;
 }
@@ -13,7 +17,7 @@ h1,h2,p {
   border: 2px dashed red;
 }
 
-.row > .col {
+.row > [class^="col"] {
   background-color: blue;
   min-height: 50px;
 }
@@ -48,6 +52,11 @@ h1,h2,p {
 }
 
 /* Main */
+.hr-star {
+  min-height: 40px;
+  max-width: 200px;
+  margin: 0 auto;
+}
 
 /* Section Intro profile */
 #intro-profile {
@@ -62,11 +71,6 @@ h1,h2,p {
   margin: 0 auto;
 }
 
-#intro-profile .hr-star {
-  min-height: 40px;
-  max-width: 200px;
-}
-
 /* Section portfolio */
 .card figure.img {
   min-height: 50px;
@@ -77,4 +81,15 @@ h1,h2,p {
 
 #portfolio .h-costmz {
   height: 250px;
+}
+
+/* Section about */
+#about {
+  background-color: #19BC9C;
+  color: white;
+}
+
+.btn.normal {
+  width: auto;
+  border: 1px solid white;
 }
