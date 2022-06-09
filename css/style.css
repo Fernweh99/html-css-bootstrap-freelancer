@@ -106,3 +106,16 @@ h1,h2,p {
 .message {
   height: 160px;
 }
+
+/* Footer */
+/* footer {
+  padding: 50px 20px;
+} */
+
+footer.bg-col-primary {
+  background-color: #3B536D;
+}
+
+footer .bg-col-secondary {
+  background-color: #2C3E4F;
+}
