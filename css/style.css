@@ -21,9 +21,6 @@ section {
 }
 
 /* Header */
-.bi-costmz {
-  font-size: 30px;
-}
 
 /* Main */
 .hr-star {
@@ -35,7 +32,6 @@ section {
 /* Section Intro profile */
 #intro-profile {
   background-color: #19BC9C;
-  min-height: 450px;
 }
 
 /* Section portfolio */
@@ -44,7 +40,7 @@ section {
 #about {
   background-color: #19BC9C;
   color: white;
-  padding: 40px 70px;
+  padding: 70px;
 }
 
 .btn.bc-white {
