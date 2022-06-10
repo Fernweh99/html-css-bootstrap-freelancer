@@ -1,49 +1,19 @@
 /* Generics */
 header {
-  height: 100px;
-  background-color: #2C3E4F;
+  height: 90px;
 }
 
 section {
   padding: 40px 0;
 }
 
-h1,h2,p {
-  min-height: 40px;
-}
-
 /* Utils */
-.border-lay {
-  border: 2px dashed red;
+.cs_rounded {
+  border-radius: 12px;
 }
 
-.row > [class^="col"] {
-  border: 2px dashed red;
-  min-height: 50px;
-}
-
-.bg-col-house {
-  background-color: #BA4B63;
-}
-
-.bg-col-cake {
-  background-color: #1CA4B5;
-}
-
-.bg-col-circle {
-  background-color: black;
-}
-
-.bg-col-game {
-  background-color: #1B83C1;
-}
-
-.bg-col-safe {
-  background-color: #0F38B5;
-}
-
-.bg-col-submarine {
-  background-color: #CCB2A3;
+.bg-darkblue {
+  background-color: #2C3E4F;
 }
 
 /* Header */
@@ -64,24 +34,7 @@ h1,h2,p {
   min-height: 450px;
 }
 
-#intro-profile figure.img{
-  min-height: 100px;
-  max-width: 200px;
-  background-color: royalblue;
-  margin: 0 auto;
-}
-
 /* Section portfolio */
-.card figure.img {
-  min-height: 200px;
-  width: 200px;
-  background-color: royalblue;
-  border-radius: 50%;
-}
-
-#portfolio .h-costmz {
-  height: 250px;
-}
 
 /* Section about */
 #about {
@@ -108,15 +61,11 @@ h1,h2,p {
 }
 
 /* Footer */
-/* footer {
-  padding: 50px 20px;
-} */
-
 footer.bg-col-primary {
   background-color: #3B536D;
 }
 
-footer .bg-col-secondary {
+.footer-bottom.bg-col-secondary {
   background-color: #2C3E4F;
 }
 
@@ -125,27 +74,10 @@ footer .bg-col-secondary {
 /***********************************************************/
 
 @media screen and (min-width: 768px) {
-  #about .container {
-    max-width: 620px;
-  }
-
-  #contact-me .container {
-    max-width: 590px;
-  }
 }
 
 @media screen and (min-width: 992px) {
-  #about .container {
-    max-width: 840px;
-  }
-
-  #contact-me .container {
-    max-width: 800px;
-  }
 }
 
 @media screen and (min-width: 1200px) {
-  body .container {
-    max-width: 1140px;
-  }
 }
