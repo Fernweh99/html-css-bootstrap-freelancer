@@ -20,6 +20,14 @@ section {
   background-color: #2C3E4F;
 }
 
+.bg-lightgreen {
+  background-color: #19BC9C;
+}
+
+.text-lightgreen {
+  color: #19BC9C;
+}
+
 /* Header */
 
 /* Main */
@@ -30,9 +38,6 @@ section {
 }
 
 /* Section Intro profile */
-#intro-profile {
-  background-color: #19BC9C;
-}
 
 /* Section portfolio */
 
@@ -63,6 +68,20 @@ section {
 /* Footer */
 footer.bg-col-primary {
   background-color: #3B536D;
+}
+
+footer i {
+  border: 1px solid white;
+  display: inline-block;
+  margin: 0px 3px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+footer i:before {
+  content: " ";
+  line-height: 45px;
 }
 
 .footer-bottom.bg-col-secondary {
