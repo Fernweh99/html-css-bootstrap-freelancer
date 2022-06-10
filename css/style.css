@@ -4,12 +4,16 @@ header {
 }
 
 section {
-  padding: 40px 0;
+  padding: 30px 0;
 }
 
 /* Utils */
 .cs_rounded {
   border-radius: 12px;
+}
+
+.width-250px {
+  width: 250px;
 }
 
 .bg-darkblue {
