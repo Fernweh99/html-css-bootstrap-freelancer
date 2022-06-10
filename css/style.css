@@ -112,16 +112,3 @@ footer i:before {
 .footer-bottom.bg-col-secondary {
   background-color: #2C3E4F;
 }
-
-/***********************************************************/
-/************************RESPONSIVE*************************/
-/***********************************************************/
-
-@media screen and (min-width: 768px) {
-}
-
-@media screen and (min-width: 992px) {
-}
-
-@media screen and (min-width: 1200px) {
-}
