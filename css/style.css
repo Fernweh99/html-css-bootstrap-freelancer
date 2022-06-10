@@ -57,17 +57,23 @@ section {
   padding: 40px 80px;
 }
 
-.message,.name,.e-mail,.phone {
+.cs-imp {
+  border-radius: 0;
+  border: 0;
   border-bottom: 1px solid gray;
-}
-
-.message {
-  height: 160px;
+  padding: 0;
+  padding-top: 8px;
+  padding-bottom: 15px;
+  font-size: 20px;
 }
 
 /* Footer */
 footer.bg-col-primary {
   background-color: #3B536D;
+}
+
+.footer-top {
+  padding: 30px;
 }
 
 footer i {
